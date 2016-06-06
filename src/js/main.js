@@ -1,11 +1,16 @@
 import angular from 'angular';
 import 'angular-ui-router';
 
+import './app.core/index';
+import './app.user/index';
+
+
 console.log('AngularJS Version:', angular.version.full);
 
-// Import Modules
+// // Import Modules
 // import './app.core/index';
+// // import './app.user/index';
 //
 // angular
-//  .module('app.core', ['app.core'])
+//   .module('app', ['app.core', 'app.user'])
 // ;
